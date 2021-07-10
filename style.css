@@ -1,0 +1,146 @@
+*{
+    padding: 0px;
+    margin:0px;
+    font-family: monospace;
+    box-sizing: border-box;
+}
+body{
+    width: auto;
+    height: auto;
+    background-color: rgb(228, 219, 243);
+    font-size: 12px;
+}
+
+.container{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+.heading{
+    text-align: center;
+}
+
+h1{
+    font-size: 4rem;
+    font-style: italic;
+    color:rgba(151, 26, 200, 0.856) ;
+    text-decoration:underline rgb(48, 46, 173);
+    text-shadow:rgb(87, 86, 163) 2px 2px;
+    display: inline-block;
+    margin: 10px auto;
+}
+.subtxt{
+    font-weight:700;
+    color: rgb(98, 99, 195);
+    margin: 10px 10px;
+    font-size:1.5rem;
+    word-spacing: 0.02em;
+    letter-spacing: 1.6px;
+}
+.navigator{
+    font-size: 0.8em;
+    font-weight: 800;
+    font-display:inherit;
+    margin-top:2px;
+
+}
+.navigator:hover{
+font-size: 1em;
+color: yellow;
+}
+.inputFields{
+    position: relative;
+    top: 280px;
+} 
+.input{
+    font-size: 1.8em;
+    width: 80vw;
+    outline: rgb(76, 3, 235);
+    border: rgb(110, 59, 221) 2px solid ;
+    height: 6vh;
+    background-color:rgb(130, 171, 238);
+    color: darkblue;
+    border-radius: 5px;
+}
+.input:focus,input:hover{
+    border: rgb(125, 34, 185) 2px solid;
+    box-shadow: 0 0 8px 2px rgb(123, 62, 238);
+}
+.buttoncontainer{
+    text-align: center;
+    margin-top: 2em;
+}
+.button{
+    width:20vw;
+    height: 8vh;
+    border-radius: 15px;
+    background-color: rgba(56, 56, 177, 0.691);
+    display:inline-block;
+}
+.button:active{
+    background-color: cornflowerblue;
+    border:3px solid darkblue
+}
+.button:hover{
+    width: 23vw;
+    height: 10vh;
+    box-shadow: rgb(56, 56, 168) 0 0 6px 3px;
+}
+/* my list style*/
+.YourList{
+    width: 60vw;
+    height: 40vh;
+    margin-top: -8em ;
+    border: 0px solid black;
+    overflow:auto;
+    text-align: center;
+}
+h2{
+    font-size: 2rem;
+    color: rgb(40, 57, 134);
+    text-decoration: rgb(75, 75, 228);
+    text-decoration-line: underline ;
+    text-decoration-style: wavy;
+}
+li{
+    margin:15px 10px;
+    font-size:1.5rem;
+    list-style: circle;
+    list-style-position: inside;
+    text-align: center;
+}
+#steps{
+    font-weight: 800;
+    margin-bottom:15px;
+    color: rgb(121, 129, 138);
+    font-style: italic;
+    background-color: rgb(199, 185, 245);
+    width: 80vw;
+    height: 50vh;
+    position: relative;
+    top: 200px;  line-break: strict;
+    
+}
+.footer-color{
+    /* position: absolute; */
+    position: relative;
+}
+.footer-container{
+    width: auto;
+    height: 20vh;
+    background-color: rgb(202, 166, 235);
+    position: relative;
+    top: 200px;
+    font-size: 1.4rem;
+    margin-bottom: 1em;
+  }
+
+.Social{
+    margin-top: -8vh;
+    float: right;
+    margin-right: 30vw;
+    text-align: center;
+}

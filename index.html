@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon"
+    href="favicon.ico"
+    type="image/x-icon">
+    <title>Todo List</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="heading" >
+        <h1>My Todo List</h1>
+        <p class="subtxt">Welcome to <b>My Todo List</b>, a free and open source web app to remember your daily task's . A simple app from us to enhance your productivity. <span class="navigator"><br><a href = "index.html#steps">Steps to get started</a> </span</p>
+        </div>
+        <div class="inputcontainer">
+        <div class="inputFields">
+            <label for="title"></label>
+            <input required type="text" id="title" class="input" placeholder="Enter Your Task here(Max 10 words)">
+            <!-- <br>
+            <label for="description"></label> -->
+            
+            <div class="buttoncontainer">
+                <button type="button" class="button" id="btn">Add To List</button>
+                <button type="button" class="button" id="btn1" style="margin-left: 2rem;">Reset Your List</button>
+            </div>
+        </div>
+    </div>
+        <div class="YourList">
+            <h2>Your Task's</h2>
+            <!-- My Table which contains items -->
+            <ul></ul>
+        </div>
+        <div id="steps">
+            <ol >
+                <li style="list-style: decimal;">Enter Your Task to be done in the input tab.</li>
+                <li style="list-style: decimal;">Click on the button <strong>add to List</strong>.Your task will be added to your list.</li>
+                <li style="list-style: decimal;">To remove that particular list (whether entered incorrect or completed click on thet task. </li>
+                <li style="list-style: decimal;">Or If you want to empty your whole list than click on the <strong>Reset Your list </strong> button. Note:(it will reset your list to null and it cannot be brought back).</li>
+            </ol>
+        </div>
+    </div>
+    <footer class="footer-color">
+        <div class="footer-container">
+            <span class="myname">
+                <a href="index.html"><img style = "margin: 2vh 0px 0px 10vw ;"src = "favicon.ico"></a><br>
+                <span style="margin: 0px 0px 4px 10vw;"> Made By :- <br><span style="margin-left: 10vw ;">Prajas Kulkarni</span></span>
+            </span>
+                <span class="Social"><p class="social-text">Contact Me <br>
+                    <a href="mailto:zero20206@outlook.com? subject=subject text "><img src="https://www.savethesound.org/wp-content/uploads/2018/03/EmailButton.png" width="32px" height="32px"></a></p>
+                </span>
+                
+            
+        </div>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>
