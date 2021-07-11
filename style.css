@@ -127,6 +127,7 @@ li{
 .footer-color{
     /* position: absolute; */
     position: relative;
+    margin-top: 20vh;
 }
 .footer-container{
     width: auto;
@@ -135,7 +136,8 @@ li{
     position: relative;
     top: 200px;
     font-size: 1.4rem;
-    margin-bottom: 1em;
+    margin-top: 1em;
+    
   }
 
 .Social{
