@@ -119,7 +119,7 @@ li{
     font-style: italic;
     background-color: rgb(199, 185, 245);
     width: 80vw;
-    height: 50vh;
+    height: auto;
     position: relative;
     top: 200px;  line-break: strict;
     
@@ -143,6 +143,6 @@ li{
 .Social{
     margin-top: -8vh;
     float: right;
-    margin-right: 30vw;
+    margin-right: 25%;
     text-align: center;
 }
