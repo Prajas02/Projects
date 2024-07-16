@@ -1,7 +1,7 @@
 <nav
   class="flex justify-between items-center w-full md:h-15 bg-black text-white"
 >
-  <div class="flex w-2/5 justify-center items-center text-2xl font-bold px-2">
+  <div class="flex w-2/5 justify-center items-center text-lg md:text-2xl font-bold mx-4 px-2">
     <img src="/favicon.svg" alt="Logo" width="55px" height="55px"/>
     <h1 class="mx-2">WallPaper</h1>
   </div>
@@ -11,10 +11,14 @@
     <i class="fa-solid fa-magnifying-glass text-white relative -start-10 cursor-pointer"></i>
   </div>
 
-  <div class="flex justify-start items-center text-lg font-semibold px-2">
+  <div class="text-white md:hidden mx-5 text-2xl">
+    <i class="fa-solid fa-bars cursor-pointer"></i>
+  </div>
+
+  <div class="hidden md:flex md:justify-start md:items-center text-lg font-semibold px-2">
     <a href="#" class="mx-3 hover:underline">Nature</a>
-    <a href="#" class="mx-3">Sun</a>
-    <a href="#" class="mx-3">Moon</a>
-    <a href="#" class="mx-3">Heros</a>
+    <a href="#" class="mx-3 hover:underline">Sun</a>
+    <a href="#" class="mx-3 hover:underline">Moon</a>
+    <a href="#" class="mx-3 hover:underline">Heros</a>
   </div>
 </nav>
