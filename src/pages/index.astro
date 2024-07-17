@@ -1,7 +1,18 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro"
+import SideBar from "../components/SideBar.astro"
+import ImageCards from '../components/ImageCards.astro'
 ---
 
 <BaseLayout title = 'WallPaper | Home'>
-    hello
+    <div class="flex px-10 pt-5 w-full h-auto bg-black">
+        <SideBar />
+
+        <div class="ml-5">
+            <ImageCards />
+            <ImageCards />
+            <ImageCards />
+            <ImageCards />
+        </div>
+    </div>
 </BaseLayout>
