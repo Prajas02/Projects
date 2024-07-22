@@ -10,7 +10,7 @@ const data = await response.json()
 
 <BaseLayout title = 'WallPaper | Home'>
     <div class="flex flex-col md:flex-row px-5 md:px-10 w-full min-h-min bg-black">
-        <!-- <SideBar />  -->
+        <SideBar /> 
 
         <div class=" w-full grid grid-cols-2 gap-x-2 gap-y-2 md:gap-x-4 md:gap-y-4 md:ml-80 md:grid-cols-3 md:grid-rows-10">
             {data.map((object)=>{
