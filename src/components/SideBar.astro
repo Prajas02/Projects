@@ -1,1 +1,26 @@
-<div class="flex flex-col items-center text-white bg-slate-900 h-screen w-1/4 fixed">Hello</div>
+---
+import data from "../data";
+---
+
+<div
+  class="text-white min-h-min w-full md:w-1/4 flex flex-col border border-solid border-white overflow-hidden"
+>
+  <h1
+    class="text-xl text-center md:tracking-tight mb-2 italic font-semibold underline underline-offset-8"
+  >
+    Data Provided By Unsplash
+  </h1>
+  <h1 class="text-lg text-center md:tracking-tight mb-4 italic font-normal">
+    Top Photographers From This Page
+  </h1>
+  <ul>
+    {
+      data.map((item, indx) => {
+        return <li class="flex justify-between items-center mx-2"> > 
+            <div class="underline-none hover:underline underline-offset-4"><a href={item.user.portfolio_url}>{item.user.name}</a></div>
+            <div class="likes">{item.likes}</div>
+        </li>;
+      })
+    }
+  </ul>
+</div>
